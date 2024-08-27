@@ -83,9 +83,10 @@ body {
 button {
   padding: 1em 2em;
   margin: 10px;
-  border: 1 solid indianred;
+  /* border: 1 solid indianred; */
+  border: none;
   background-color: #262b33;
-  color: #f0f0f0;
+  color: black;
   border-radius: 1000px;
   position: relative;
   display: flex;
@@ -101,6 +102,7 @@ button::after {
   border-radius: 1000px;
   background-image: linear-gradient(to bottom right, #008cff, #e100ff);
   z-index: -1;
+  
 }
 button:hover {
   z-index: 0;
@@ -158,4 +160,16 @@ h1 {
 .Pawn2{
   background-image: url(2Pawn.png);
   background-size: cover;
+}
+.container1 button{
+  background-color:rgb(193, 81, 37);
+}
+.container2 button{
+  background-color:rgb(161, 161, 161);
+}
+.container1 h1{
+  color:rgb(193, 81, 37);
+}
+.container2 h1{
+  color:rgb(161, 161, 161);
 }
