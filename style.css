@@ -124,7 +124,7 @@ h1 {
 @media only screen and (max-width: 600px) {
   .container1 {
     position: absolute;
-    right: 23%;
+    right: 5%;
     top: 50px;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@ h1 {
   }
   .container2 {
     position: absolute;
-    right: 23%;
+    right: 5%;
     top: 760px;
     display: flex;
     align-items: center;
