@@ -28,8 +28,8 @@ document.querySelectorAll("bUtton")[1].addEventListener("click", run2);
 // });
 // // $(`#${1}`).addClass("blackPawn");
 var audio1 = new Audio("chin_tapak_dum_dum.mp3");
-var onLadder = new Audio("On Ladder.mp3");
-var onSnake = new Audio("On Snake.mp3");
+var onLadder = new Audio("ladder.mp3");
+var onSnake = new Audio("Snake-and-Ladder-Game\snake bite.wav");
 
 //For alternate coloring for div
 for (var i = 0; i <= 100; i++) {
